@@ -1,0 +1,114 @@
+[
+  {
+    "objectID": "using-repo.html",
+    "href": "using-repo.html",
+    "title": "Using the repository",
+    "section": "",
+    "text": "The entire folder can be downloaded from here or can be cloned using git.\ngit clone git@github.com:replicability-stat-unipd/replicability-summer-school-2023.git\nOnce downloaded, the project can be opened with R Studio simply opening the replicability-summer-school-2023.Rproj file. Then using the command devtools::load_all() all the custom functions within the R/ folder can be used."
+  },
+  {
+    "objectID": "using-repo.html#general",
+    "href": "using-repo.html#general",
+    "title": "Using the repository",
+    "section": "",
+    "text": "The entire folder can be downloaded from here or can be cloned using git.\ngit clone git@github.com:replicability-stat-unipd/replicability-summer-school-2023.git\nOnce downloaded, the project can be opened with R Studio simply opening the replicability-summer-school-2023.Rproj file. Then using the command devtools::load_all() all the custom functions within the R/ folder can be used."
+  },
+  {
+    "objectID": "using-repo.html#functions",
+    "href": "using-repo.html#functions",
+    "title": "Using the repository",
+    "section": "Functions",
+    "text": "Functions\nWithin slides and exercises we use some custom functions developed for the workshop. These functions can be loaded with devtools::load_all():\n\nR/utils.R: general utilities for managing the project (not useful for the workshop)\nR/utils-meta.R: utilities for the meta-analysis workshop\nR/utils-biostat.R: utilities for the biostatistic workshop\nR/utils-replication.R: utilities for the replication methods workshop"
+  },
+  {
+    "objectID": "using-repo.html#useful-links",
+    "href": "using-repo.html#useful-links",
+    "title": "Using the repository",
+    "section": "Useful links",
+    "text": "Useful links\n\nShared code editor\nGithub repository"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "\nREPLICABILITY CRISIS IN SCIENCE?\n",
+    "section": "",
+    "text": "REPLICABILITY CRISIS IN SCIENCE?\n\n\nSummer School\n\n\n18 – 22 September 2023\n\n\nUniversity of Padova\n\n\n\n  \n\nThis website contains the materials used during the workshops. For general information about the summer school see the main website replicability.stat.unipd.it"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "getting-started.html",
+    "href": "getting-started.html",
+    "title": "Getting Started",
+    "section": "",
+    "text": "The first step is installing R that is a very straightforward process. You can go to https://cran.r-project.org/, download the installer for your operating system and follow the steps1.\n\n\nFor MAC users there is an additional tool that is required called XQuartz https://www.xquartz.org/.\nFor Windows users, Rtools https://cran.r-project.org/bin/windows/Rtools/ is an additional tool required by some packages to works correctly. Remember to choose the version corresponding to the R version that you installed.\n\n\n\n\nR Studio (now Posit) is an IDE to use the R programming language but also other programming languages. Is not the only option to use R (for hardcore users you can basically open a text editor and a terminal :skull:). Another very good option is VScode (which I personally use when writing using Quarto or R Markdown). However, I suggest you to install R Studio, you can dowload the last version from the website https://posit.co/products/open-source/rstudio/"
+  },
+  {
+    "objectID": "getting-started.html#installing-r-binaries",
+    "href": "getting-started.html#installing-r-binaries",
+    "title": "Getting Started",
+    "section": "",
+    "text": "The first step is installing R that is a very straightforward process. You can go to https://cran.r-project.org/, download the installer for your operating system and follow the steps1.\n\n\nFor MAC users there is an additional tool that is required called XQuartz https://www.xquartz.org/.\nFor Windows users, Rtools https://cran.r-project.org/bin/windows/Rtools/ is an additional tool required by some packages to works correctly. Remember to choose the version corresponding to the R version that you installed."
+  },
+  {
+    "objectID": "getting-started.html#r-studio",
+    "href": "getting-started.html#r-studio",
+    "title": "Getting Started",
+    "section": "",
+    "text": "R Studio (now Posit) is an IDE to use the R programming language but also other programming languages. Is not the only option to use R (for hardcore users you can basically open a text editor and a terminal :skull:). Another very good option is VScode (which I personally use when writing using Quarto or R Markdown). However, I suggest you to install R Studio, you can dowload the last version from the website https://posit.co/products/open-source/rstudio/"
+  },
+  {
+    "objectID": "getting-started.html#github",
+    "href": "getting-started.html#github",
+    "title": "Getting Started",
+    "section": "Github",
+    "text": "Github\nGithub is the online server where Git repositories can be hosted. It is an amazing service where you can also create websites for free (where this page is hosted) just using R and Quarto (or R Markdown). You can create an account on the website https://github.com/."
+  },
+  {
+    "objectID": "getting-started.html#open-science-framework",
+    "href": "getting-started.html#open-science-framework",
+    "title": "Getting Started",
+    "section": "Open Science Framework",
+    "text": "Open Science Framework\nThe Open Science Framework (OSF) is an free online repository to host documents, code and files related to research work. The repository can be shared and OSF will attach a DOI thus can be cited and shared in a consistent way. OSF can be linked to several other services such as reference managers, cloud storage and Github. You can create an account on the website https://osf.io/."
+  },
+  {
+    "objectID": "getting-started.html#cran-packages",
+    "href": "getting-started.html#cran-packages",
+    "title": "Getting Started",
+    "section": "CRAN Packages",
+    "text": "CRAN Packages\nTo install packages from CRAN you can run the following code into the R console:\n\npkgs &lt;- c(\"tidyverse\", \"car\", \"devtools\", \"here\", \"knitr\", \"rmarkdown\", \"metafor\", \"MetaUtility\", \"pROC\", \"Replicate\", \"rstanarm\", \"sjPlot\", \"remotes\", \"cli\", \"logspline\", \"pwr\", \"ggdist\")\n\ninstall.packages(pkgs)"
+  },
+  {
+    "objectID": "getting-started.html#github-packages",
+    "href": "getting-started.html#github-packages",
+    "title": "Getting Started",
+    "section": "Github Packages",
+    "text": "Github Packages\nThere are some packages that are not available on CRAN. You can install using the following code:\n\nif (!require(\"remotes\", quietly = TRUE)) install.packages(\"remotes\")\n\ngh_pkgs &lt;- c(\"haozhu233/kableExtra\", \"filippogambarota/filor\")\nremotes::install_github(gh_pkgs)"
+  },
+  {
+    "objectID": "getting-started.html#bioconductor-packages",
+    "href": "getting-started.html#bioconductor-packages",
+    "title": "Getting Started",
+    "section": "Bioconductor Packages",
+    "text": "Bioconductor Packages\nThere are some packages from the Bioconductor repository. You can install using the following code2.\n\nif (!require(\"BiocManager\", quietly = TRUE)) install.packages(\"BiocManager\")\n\nBiocManager::install(\"curatedOvarianData\")"
+  },
+  {
+    "objectID": "getting-started.html#footnotes",
+    "href": "getting-started.html#footnotes",
+    "title": "Getting Started",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nFor linux users the procedure is a little bit more tricky, but all steps are clearly↩︎\nOn linux the procedure could be a little bit long↩︎"
+  },
+  {
+    "objectID": "materials.html",
+    "href": "materials.html",
+    "title": "Materials",
+    "section": "",
+    "text": "The slides are located into the specific folders. Then when relevant script/ and objects/ folders contains extra documents and files included in the slides. The dataset used in the slides are contained also into the data folder and datasets can be accessed also using the data() function.\n\n\n\nDay\nTitle\nSlides\nSource\n\n\n\n\n09-18-2023\nIntroduction to the workshops\nhtml\nqmd\n\n\n09-18-2023\nTools for reproducible research\nhtml\nqmd\n\n\n09-19-2023\nMeta-Analysis and Multi-Lab Replication studies\nhtml\nqmd\n\n\n09-20-2023\nExploring Replicability in Biostatistics\nhtml\nqmd\n\n\n09-21-2023\nStatistical Methods for Replication Assessment\nhtml\nqmd"
+  }
+]
