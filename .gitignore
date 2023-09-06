@@ -1,0 +1,16 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+_site
+.sass-cache
+.jekyll-metadata
+Gemfile.lock
+.DS_Store
+/.luarc.json
+deprecated/
+examples/**/**.log
+examples/**/**.tex
+examples/**/**.html
+/.quarto/

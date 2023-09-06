@@ -1,0 +1,33 @@
+project:
+  type: website
+  output-dir: docs
+  
+website:
+  navbar:
+    background: primary
+    search: true
+    left:
+      - text: "Home"
+        file: index.qmd
+      - text: "Getting Started"
+        file: getting-started.qmd
+      - text: "Repository"
+        file: using-repo.qmd
+      - text: "Materials"
+        file: materials.qmd
+    tools:
+      - icon: github
+        menu:
+          - text: Source Code
+            url:  https://code.com
+          - text: Report a Bug
+            url:  https://bugs.com
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    freeze: auto
+
+
+

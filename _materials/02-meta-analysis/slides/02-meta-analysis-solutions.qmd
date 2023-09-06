@@ -1,0 +1,90 @@
+## 1. Importing and exploring
+
+We have `nrow(oliveira2023)` studies, and this is the dataset structure with some summary statistics:
+
+```{r}
+#| eval: false
+oliveira2023 <- readRDS(here("02-meta-analysis/objects/oliveira2023_clean.rds"))
+
+str(oliveira2023)
+
+summary(oliveira2023)
+```
+
+## 2. Models
+
+::: {.panel-tabset}
+
+## EE model
+
+```{r}
+fit_ee <- rma(yi, vi, data = oliveira2023, method = "EE")
+summary(fit_ee)
+```
+
+## RE model
+
+```{r}
+fit_re <- rma(yi, vi, data = oliveira2023, method = "REML")
+summary(fit_re)
+```
+
+## Comparison
+
+```{r}
+filor::compare_rma(fit_ee, fit_re)
+```
+
+:::
+
+## 3. Forest Plots
+
+::: {.panel-tabset}
+
+### EE model
+
+```{r}
+forest(fit_ee)
+```
+
+### RE model
+
+```{r}
+forest(fit_re)
+```
+
+:::
+
+## 4. Funnel Plot
+
+```{r}
+funnel(fit_re)
+```
+
+## 5. Publication Bias
+
+```{r}
+egg <- regtest(fit_re)
+egg
+```
+
+## 5. Publication Bias
+
+```{r}
+funnel(fit_re)
+se <- seq(0,1.8,length=100)
+lines(coef(egg$fit)[1] + coef(egg$fit)[2]*se, se, lwd=3)
+```
+
+## 6. Trim and Fill
+
+```{r}
+taf <- trimfill(fit_re)
+taf
+```
+
+## 6. Trim and Fill
+
+```{r}
+funnel(taf)
+```

@@ -1,0 +1,25 @@
+/* css styles */
+
+/* Container holding the image and the text  */
+.container {
+  position: relative;
+}
+
+.container img {
+  filter: brightness(30%);
+}
+
+.navbar {
+  background-color: #9B0014;
+}
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  bottom: 25%;
+  top: 25%;
+  right: 0%;
+  left: 0%;
+  color: white;
+  text-align: center;
+}

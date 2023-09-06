@@ -1,0 +1,27 @@
+---
+title: "Using the repository"
+---
+
+## General
+
+The entire folder can be downloaded from [here](https://github.com/replicability-stat-unipd/replicability-summer-school-2023/archive/refs/heads/main.zip) or can be cloned using `git`.
+
+```bash
+git clone git@github.com:replicability-stat-unipd/replicability-summer-school-2023.git
+```
+
+Once downloaded, the project can be opened with `R Studio` simply opening the `replicability-summer-school-2023.Rproj` file. Then using the command `devtools::load_all()` all the custom functions within the `R/` folder can be used.
+
+## Functions
+
+Within slides and exercises we use some custom functions developed for the workshop. These functions can be loaded with `devtools::load_all()`:
+
+- `R/utils.R`: general utilities for managing the project (not useful for the workshop)
+- `R/utils-meta.R`: utilities for the meta-analysis workshop
+- `R/utils-biostat.R`: utilities for the biostatistic workshop
+- `R/utils-replication.R`: utilities for the replication methods workshop
+
+## Useful links
+
+- [Shared code editor](https://etherpad.wikimedia.org/p/replicability-summer-school-2023)
+- [Github repository](https://github.com/replicability-stat-unipd/replicability-summer-school-2023)

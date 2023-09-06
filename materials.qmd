@@ -1,0 +1,17 @@
+---
+title: "Materials"
+---
+
+The slides are located into the specific folders. Then when relevant `script/` and `objects/` folders contains extra documents and files included in the slides. The dataset used in the slides are contained also into the `data` folder and datasets can be accessed also using the `data()` function.
+
+| Day | Title | Slides | Source |
+|:---:|:---:|:---:|:---:|
+| 09-18-2023 | **Introduction to the workshops** | [html](_materials/00-intro/slides/00-intro.html) | [qmd](_materials/00-intro/slides/00-intro.qmd) |
+| 09-18-2023 | **Tools for reproducible research** | [html](_materials/01-replication-tools/slides/01-replication-tools.html) | [qmd](_materials/01-replication-tools/slides/01-replication-tools.qmd) |
+| 09-19-2023 | **Meta-Analysis and Multi-Lab Replication studies** | [html](_materials/02-meta-analysis/slides/02-meta-analysis.html) | [qmd](_materials/02-meta-analysis/slides/02-meta-analysis.qmd) |
+| 09-20-2023 | **Exploring Replicability in Biostatistics** | [html](_materials/03-biostatistics/slides/03-biostatistics.html) | [qmd](_materials/03-biostatistics/slides/03-biostatistics.qmd) |
+| 09-21-2023 | **Statistical Methods for Replication Assessment** | [html](_materials/04-replication-methods/slides/04-replication-methods.html) | [qmd](_materials/04-replication-methods/slides/04-replication-methods.html) |
+
+
+
+

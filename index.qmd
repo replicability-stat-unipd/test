@@ -1,0 +1,21 @@
+---
+title: ""
+toc: false
+---
+
+<div class="container">
+  <img src="https://replicability.stat.unipd.it/wp-content/uploads/2023/03/Dipartimento.png" style="width:100%;">
+<div class="text-block">
+<h1>REPLICABILITY CRISIS IN SCIENCE?</h1>
+<h3> Summer School </h3> 
+<h3> 18 – 22 September 2023 </h3>
+<h3> University of Padova </h3>
+</div>
+</div>
+
+</br>
+</br>
+</br>
+
+
+### This website contains the materials used during the workshops. For general information about the summer school see the main website [replicability.stat.unipd.it](https://replicability.stat.unipd.it/)
